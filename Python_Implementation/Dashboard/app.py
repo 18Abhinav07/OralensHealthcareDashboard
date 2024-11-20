@@ -25,11 +25,10 @@ st.set_page_config(
 BACKEND_URL = "http://localhost:5000/api/form"
 
 def main():
-    """
-    @notice Main function to render the healthcare dashboard.
-    @dev This function initializes the form, validates user inputs, and handles form submission
-    by sending data to the backend API.
-    """
+    # @notice Main function to render the healthcare dashboard.
+    # @dev This function initializes the form, validates user inputs, and handles form submission
+    # by sending data to the backend API.
+
 
 
     
@@ -59,11 +58,9 @@ def main():
 
     # Form submission and validation logic
     if submit_button:
-        """
-        @notice Triggered when the form is submitted.
-        @dev This section validates user input, displays errors if invalid, and submits
-        valid data to the backend. It also handles backend responses.
-        """
+        # @notice Triggered when the form is submitted.
+        # @dev This section validates user input, displays errors if invalid, and submits
+        # valid data to the backend. It also handles backend responses.
 
         # Input validation
         if not name:
